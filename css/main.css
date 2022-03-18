@@ -2,16 +2,12 @@ html {
   box-sizing: border-box;
 }
 
-blockquote::before {
-  box-sizing: inherit;
-}
-
-blockquote::after {
+*, *::before, *::after{
   box-sizing: inherit;
 }
 
 body {
-  background-color: #fff;
+  background-color: #ccc;
   font-family: sans-serif;
 }
 
@@ -20,6 +16,6 @@ h1 {
 }
 
 article {
-  color: #000;
   font-style: italic;
+  color: #666;
 }
