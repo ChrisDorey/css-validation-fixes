@@ -2,16 +2,19 @@ html {
   box-sizing: border-box
 }
 
-* *::before *::after {
+blockquote::before {
   box-sizing: inherit;
 }
 
-body{
-      background-color #cccccc;
-font-family:sans-serif;
+blockquote::after {
+  box-sizing: inherit;
 }
 
-h1{
+body {
+  background-color #cccccc; font-family:sans-serif;
+}
+
+h1 {
   font-size: 1.5rem;
 }
 
